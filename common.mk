@@ -333,6 +333,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default.xml
 
+TARGET_EXCLUDES_AUDIOFX := true
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
