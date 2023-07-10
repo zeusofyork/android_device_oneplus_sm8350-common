@@ -1,0 +1,25 @@
+[
+  {
+    "repository": "android_kernel_oneplus_sm8350",
+    "target_path": "kernel/oneplus/sm8350"
+  },
+  {
+    "repository": "android_hardware_oplus",
+    "target_path": "hardware/oplus"
+  },
+  {
+    "repository": "proprietary_vendor_oneplus_camera",
+    "target_path": "vendor/oneplus/camera",
+    "remote": "matrixx-gitlab"
+  },
+  {
+    "repository": "proprietary_vendor_oneplus_sm8350-common",
+    "target_path": "vendor/oneplus/sm8350-common",
+    "remote": "matrixx-gitlab"
+  },
+  {
+    "repository": "android_vendor_oneplus-firmware",
+    "target_path": "vendor/oneplus-firmware",
+    "remote": "matrixx-gitlab"
+  }
+]
