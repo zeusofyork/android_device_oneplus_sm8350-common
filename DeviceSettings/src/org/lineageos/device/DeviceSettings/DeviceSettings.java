@@ -56,7 +56,7 @@ public class DeviceSettings extends PreferenceFragment
     private static final String FILE_LEVEL = "/sys/devices/platform/soc/88c000.i2c/i2c-6/6-005a/leds/vibrator/level";
     private static final long testVibrationPattern[] = {0,5};
     private static final String DEFAULT = "3";
-    
+
     private ListPreference mTopKeyPref;
     private ListPreference mMiddleKeyPref;
     private ListPreference mBottomKeyPref;
